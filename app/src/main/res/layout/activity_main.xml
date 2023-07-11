@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/ad"
+        android:ems="10"
+        android:autofillHints="no"
+        android:id="@+id/etAd"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Soyad"
+        android:ems="10"
+        android:id="@+id/etSoyad"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Telefon"
+        android:ems="10"
+        android:id="@+id/etTel"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Cinsiyet"
+        android:ems="10"
+        android:id="@+id/etcinsiyet"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/dogumtarihi"
+        android:ems="10"
+        android:id="@+id/etdogumtarihi"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/yas"
+        android:ems="10"
+        android:id="@+id/etyas"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnKaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:onClick="Kaydet"
+            android:text="Kaydet" />
+
+        <Button
+            android:id="@+id/btnSil"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:onClick="Sil"
+            android:text="@string/sil" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Listele"
+            android:layout_marginTop="18dp"
+            android:id="@+id/btnListele"
+            android:onClick="Listele"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/guncelle"
+            android:layout_marginTop="18dp"
+            android:id="@+id/btnGuncelle"
+            android:onClick="Guncelle"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstListele" />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Rehberuyg</string>
+
+    <string name="ad">Adı</string>
+    <string name="soyadi">Soyadı</string>
+    <string name="telefon">Telefon</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="verilistele">Veri Listele</string>
+    <string name="listele">Listele</string>
+    <string name="sil">Sil</string>
+    <string name="guncelle">Güncelle</string>
+    <string name="dogumtarihi">Doğum Tarihi</string>
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="yas">Yaşı</string>
+
+
+</resources>
